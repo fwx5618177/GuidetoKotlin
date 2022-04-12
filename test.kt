@@ -1,9 +1,7 @@
 class Person {
 
     var lastName: String = "zhang"
-        get() = field.toUpperCase()   // 将变量赋值后转换为大写
-        set
-
+    
     var no: Int = 100
         get() = field                // 后端变量
         set(value) {
@@ -31,5 +29,4 @@ fun main(args: Array<String>) {
 
     person.no = 20
     println("no:${person.no}")
-
 }
